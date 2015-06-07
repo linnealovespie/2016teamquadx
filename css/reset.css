@@ -7,3 +7,16 @@ main{
 header{
 	height:0;
 }
+
+
+.side-nav .collapsible-header {
+    background-color: transparent;
+    margin: 0px;
+    border: medium none;
+    height: inherit;
+    line-height: 4.5;
+}
+
+.side-nav{
+	z-index: 500;
+}

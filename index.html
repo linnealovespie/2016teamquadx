@@ -14,10 +14,21 @@
     <header>
         <div><a href="#" data-activates="nav-mobile" class="button-collapse top-nav waves-effect waves-light"><i class="medium mdi-navigation-menu"></i></a></div>
         <ul id="nav-mobile" class="side-nav fixed">
-          <li class="logo"><a id="logo-container" href="#" class="brand-logo"></a></li>
-          <li class="bold"><a href="#" class="waves-effect waves-teal">About</a></li>
-          <li class="bold"><a href="#" class="waves-effect waves-teal">Getting Started</a></li>
-        <li class="bold"><a href="#"class="waves-effect waves-teal">JavaScript</a><li>
+          <li class="logo"><a id="logo-container" href="#" class="brand-logo">Logo</a></li>
+          <li class="no-padding"><!--Tabs under "About"!-->
+            <ul class="collapsible collapsible-accordion">
+             <li><div class="collapsible-header"><a href="#" class="collapsible-header waves-effect waves-teal">About</a></div>
+              <div class="collapsible-body">
+                <ul>
+                  <li class="bold"><a href="#" class="waves-effect waves-teal">Team</a></li>
+                  <li class="bold"><a href="#" class="waves-effect waves-teal">Robot</a></li>
+                </ul>
+              </div></li>
+            </ul>
+          </li>
+          <li class="bold"><a href="#" class="waves-effect waves-teal">Resources</a></li>
+          <li class="bold"><a href="#"class="waves-effect waves-teal">Contact</a><li>
+          <li class="bold"><a href="#"class="waves-effect waves-teal">Blog</a><li>
         </ul>
     </header>
     <div class="bg-img"></div>
