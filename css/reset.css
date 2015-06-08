@@ -18,5 +18,12 @@ header{
 }
 
 .side-nav{
-	z-index: 500;
+	z-index: 999;
+}
+
+a#logo-container.brand-logo{
+	background-image: url("../img/logo.png");
+	background-repeat:no-repeat;
+	background-position: center;
+	height:120px;
 }
