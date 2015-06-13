@@ -27,3 +27,11 @@ a#logo-container.brand-logo{
 	background-position: center;
 	height:120px;
 }
+
+a{
+	color:#ffeb3b;
+}
+
+.btn{
+	padding:0;
+}
