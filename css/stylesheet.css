@@ -69,17 +69,24 @@
 		margin-left:0px;
 	}
 	.call-action{
+		top:25%;
 		left:32%; /*Find 4 rem to px- this works for mobile (109.5px works decently)*/
 	}
 	.call-action a{
-		width:50%;
 		font-size:12px;
 	}
 }
 
 @media(max-width:500px){
 	.call-action a{
+		top:10%;
 		width:95%;
 		font-size:12px;
+	}
+}
+
+@media(max-width:700px){
+	.call-action {
+		top:10%;
 	}
 }
