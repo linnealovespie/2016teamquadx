@@ -48,28 +48,27 @@
 	margin:10px auto 10px auto;
 }
 
+.icons li{
+    display:inline;
+}
+.icons i{
+    font-size:30px;
+    color: #003bff;
+    font-style:normal;
+    margin:0 1% 0 0 ;
+}
+
+.icons a:hover, .icons a:active{
+			text-decoration:none;
+			background-color:transparent;
+}
+
 @media(max-width:1000px){
-	/*.container{
-		margin-left:0;
-	}
-	.bg-img{
-		width:100%;
-		margin:0;
-	}
-	.call-action{
-		margin-top:50%;
-		width:40%;
-		padding:0 3px 3px 3px;
-	}
-	.call-action h1{
-		font-size:24px;
-	}
-	*/
 	.right-wrapper{
 		margin-left:0px;
 	}
 	.call-action{
-		top:25%;
+		top:10%;
 		left:32%; /*Find 4 rem to px- this works for mobile (109.5px works decently)*/
 	}
 	.call-action a{
@@ -79,7 +78,7 @@
 
 @media(max-width:500px){
 	.call-action a{
-		top:10%;
+		top:5%;
 		width:95%;
 		font-size:12px;
 	}
@@ -89,4 +88,14 @@
 	.call-action {
 		top:10%;
 	}
+    .call-action{
+        width:70%;
+        left:17%;
+    }
+}
+
+@media(max-width:360px){
+    .call-action h1{
+        display:none;
+    }
 }

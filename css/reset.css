@@ -35,3 +35,7 @@ a{
 .btn{
 	padding:0;
 }
+
+footer.page-footer{
+    background-color:#ffeb3b;
+}
