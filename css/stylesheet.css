@@ -7,6 +7,7 @@
 
 .right-wrapper{
 	margin-left:240px;
+    margin-top:0;
 }
 
 .logo-img{
@@ -17,7 +18,10 @@
 	margin-right:auto;
 	display:block;
 	position:absolute;
+}
 
+ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .collapsible-body{
@@ -53,15 +57,33 @@
 }
 .icons i{
     font-size:30px;
-    color: #003bff;
+    color: #7D0E5C;
     font-style:normal;
-    margin:0 1% 0 0 ;
+    margin:0 1.5% 0 1.5%;
 }
 
 .icons a:hover, .icons a:active{
-			text-decoration:none;
-			background-color:transparent;
+    text-decoration:none;
+    background-color:transparent;
 }
+
+.home-icons h5{
+    text-align:center;  
+}
+
+.home-icons img{
+    width:60%;
+    display:block;
+    margin:auto;
+}
+
+#viperbots{
+    display:block;
+    margin-left:auto;
+    width:100px;
+    margin-top:15px;
+}
+
 
 @media(max-width:1000px){
 	.right-wrapper{

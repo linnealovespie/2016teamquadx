@@ -5,6 +5,7 @@ main{
 header{
 	height:0;
 }
+
 body{
 	margin-top:-15px;
 }
@@ -21,6 +22,13 @@ body{
 	z-index: 999;
 }
 
+nav{
+    background-color:#FFEB3B;
+    height:160px;
+    padding-top:2%;
+    position:absolute;
+}
+
 a#logo-container.brand-logo{
 	background-image: url("../img/logo.png");
 	background-repeat:no-repeat;
@@ -30,6 +38,11 @@ a#logo-container.brand-logo{
 
 a{
 	color:#ffeb3b;
+}
+
+.mdi-navigation-menu{
+    color:#C0F138;
+    z-index: -1;
 }
 
 .btn{
