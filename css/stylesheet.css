@@ -10,6 +10,9 @@
     margin-top:0;
 }
 
+a {
+    color: #039BE5;
+}
 .logo-img{
 	background-image: url("../img/logo.png");
 	height:auto;
@@ -22,6 +25,26 @@
 
 ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
     background-color: rgba(0, 0, 0, 0.05);
+}
+
+/*Styles for titles of all non-homepages*/
+.page-title{
+    font-size:48px;
+    margin-left:2%;
+}
+
+.page-title p{
+    line-height:25px;
+    margin:-1% auto auto 2%;
+}
+
+@media(max-width:1000px){
+    .nav-wrapper{
+        text-align:center;
+    }
+    .cheat-icons h5{
+        font-size:1.5rem;
+    }
 }
 
 .collapsible-body{
@@ -57,7 +80,7 @@ ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
 }
 .icons i{
     font-size:30px;
-    color: #7D0E5C;
+    color: #FFF493;
     font-style:normal;
     margin:0 1.5% 0 1.5%;
 }
@@ -77,6 +100,10 @@ ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
     margin:auto;
 }
 
+.page-footer h5{
+    color:#fdf5a7;
+}
+
 #viperbots{
     display:block;
     margin-left:auto;
@@ -84,7 +111,9 @@ ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
     margin-top:15px;
 }
 
-
+#footer-link{
+   color:rgba(255, 255, 255, 0.8); 
+}
 @media(max-width:1000px){
 	.right-wrapper{
 		margin-left:0px;

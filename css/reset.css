@@ -36,8 +36,8 @@ a#logo-container.brand-logo{
 	height:120px;
 }
 
-a{
-	color:#ffeb3b;
+a {
+    color: #9366D6;
 }
 
 .mdi-navigation-menu{
@@ -52,3 +52,12 @@ a{
 footer.page-footer{
     background-color:#ffeb3b;
 }
+
+/*ul li {
+    list-style-type: disc;
+}*/
+
+h6 {
+    font-size: 20px;
+}
+
