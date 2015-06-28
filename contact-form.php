@@ -8,14 +8,19 @@
 	<link href="css/stylesheet.css" rel="stylesheet"  type="text/css"/>
 	<link href="css/materialize.css" rel="stylesheet" type="text/css"/>
     <link href="css/androidicons.css" rel="stylesheet" type="text/css"/>
-  <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
     <header>
+        <nav class="top-nav">
+        <div class="right-wrapper">
+            <div class="nav-wrapper"><a class="page-title">Contact Us<i><p>Feel free to message us, or connect via social media.</p></i></a></div>
+        </div>
+      </nav>
         <div><a href="#" data-activates="nav-mobile" class="button-collapse top-nav waves-effect waves-light"><i class="medium mdi-navigation-menu"></i></a></div>
         <ul id="nav-mobile" class="side-nav fixed">
-          <li class="logo"><a id="logo-container" href="#" class="brand-logo"></a></li>
+          <li class="logo"><a id="logo-container" href="index.html" class="brand-logo"></a></li>
           <li class="no-padding"><!--Tabs under "About"!-->
             <ul class="collapsible collapsible-accordion">
              <li><div class="collapsible-header"><a href="#" class="collapsible-header waves-effect waves-yellow">About</a></div>
@@ -28,7 +33,7 @@
             </ul>
           </li>
           <li class="bold"><a href="resource.html" class="waves-effect waves-yellow">Resources</a></li>
-          <li class="bold"><a href="contact-form.php" class="waves-effect waves-yellow">Contact</a><li>
+          <li class="bold"><a href="contact-form.php"class="waves-effect waves-yellow">Contact</a><li>
         <li class="no-padding"><!--Tabs under "Events"!-->
         <ul class="collapsible collapsible-accordion">
          <li><div class="collapsible-header"><a href="events.html" class="collapsible-header waves-effect waves-yellow">Events</a></div>
@@ -42,64 +47,38 @@
       </li>
         </ul>
     </header>
-
-  <div class="right-wrapper">
-    <main>
-    <img src="img/land.jpg" class="responsive-img bg-img">
-    <div class="call-action">
-        <h1 class="flow-text">Committed to more than just the game.</h1>
-        <a class="waves-effect waves-light yellow btn">Contribute</a>
-    </div>  
-
-    <div class="container">
-        <div class="row  home-icons"><!--Icons directing to pages!-->
-            <div class="col s12 m4">
-                <h5>Robot</h5>
-                <a href="#"><img class="responsive-img" src="img/gear39.png"></a>
-            </div>
-            <div class="col s12 m4">
-                <h5>Resources</h5>
-                <a href="resource.html"><img class="responsive-img" src="img/question58.png"></a>
-            </div>
-            <div class="col s12 m4">
-                <h5>Contact</h5>
-                <a href="contact-form.php"><img class="responsive-img" src="img/email5.png"></a>
-            </div>
-        </div>
-    </div>
-    <div class="wider-container">
-        <div class="row">
-            <div class="col m8 s12">
-                <h3>Hello!</h3>
-                <p>We are FTC Team 6299 QuadX. This will be our third year as a team, and our first with half of the members new to the FIRST experience. We’re located in Austin, Texas and are a member of the Vandegrift ViperBots organization. We are passionate about building, programming, and marketing the awesome robots we come up with every year.</p>
-            </div>
-            <div class="col m4 s0">
-                <img class="responsive-img" id="texas" src="img/texas.png">
+    <div class="right-wrapper">
+        <div class="container">
+            <div class="contact-wrapper" id="top-margin-adjust">
+                 <div class="row">
+                    <form class="col s12" action="php/contact.php">
+                      <div class="row">
+                        <div class="input-field col s6">
+                          <input id="first_name" type="text" class="validate">
+                          <label for="first_name">Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                              <input id="email" type="text" class="validate">
+                              <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                              <textarea id="textarea1" class="materialize-textarea"></textarea>
+                              <label for="textarea1">Message</label>
+                            </div>
+                        </div>
+                        <button class="waves-effect waves-light purple btn" type="submit" name="submit">Submit 
+    <i class="ai-send"></i>
+  </button>
+                     </form>
+                      
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col m4 s12">
-                <img class="responsive-img" id="texas" src="img/worlds.jpg">
-            </div>
-            <div class="col m8 s12">
-                <h3>Our History</h3>
-                <p>The past two years were amazing seasons for us! Our rookie year, we qualified for the Worlds Championship and placed 3rd with the dream alliance of 4997 Masquerade and 4211 The Bombers. Last year, we placed 3rd in the World once again, and became the first Texas team to EVER win an award- the PTC Design Award! This next season will be full of new challenges, but we hope to continue this trend.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col m4 s12">
-                <img class="responsive-img" id="texas" src="img/worlds.jpg">
-            </div>
-            <div class="col m8 s12">
-                <h3>Our History</h3>
-                <p>The past two years were amazing seasons for us! Our rookie year, we qualified for the Worlds Championship and placed 3rd with the dream alliance of 4997 Masquerade and 4211 The Bombers. Last year, we placed 3rd in the World once again, and became the first Texas team to EVER win an award- the PTC Design Award! This next season will be full of new challenges, but we hope to continue this trend.</p>
-            </div>
-        </div>
-    </div>
-        
-  </main>
-
-  <footer class="page-footer">
+     <footer class="page-footer">
       <div class="container">
           <div class="row">
               <div class="col m8">
@@ -134,4 +113,3 @@
 
 </body>
 </html>
-

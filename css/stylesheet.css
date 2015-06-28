@@ -13,6 +13,7 @@
 a {
     color: #039BE5;
 }
+
 .logo-img{
 	background-image: url("../img/logo.png");
 	height:auto;
@@ -27,6 +28,14 @@ ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
+.wider-container{
+    width:80%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
 /*Styles for titles of all non-homepages*/
 .page-title{
     font-size:48px;
@@ -36,6 +45,10 @@ ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
 .page-title p{
     line-height:25px;
     margin:-1% auto auto 2%;
+}
+
+#top-margin-adjust{
+    margin-top:200px;
 }
 
 @media(max-width:1000px){
@@ -78,6 +91,7 @@ ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
 .icons li{
     display:inline;
 }
+
 .icons i{
     font-size:30px;
     color: #FFF493;
@@ -100,6 +114,13 @@ ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
     margin:auto;
 }
 
+#texas{
+    margin:auto;
+    height:70%;
+    display:block;
+    border-radius:3px;
+    
+}
 .page-footer h5{
     color:#fdf5a7;
 }
@@ -149,4 +170,17 @@ ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
     .call-action h1{
         display:none;
     }
+}
+
+/*Contact form styles*/
+.contact-wrapper{
+    width:100%;
+    border: 2px solid #a584d6;
+    border-radius:3px;
+    /*background-color:rgba(165, 132, 214, 0.4);*/
+    padding:20px;
+}
+
+.ai-send{
+    margin-left:3px;
 }

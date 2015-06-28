@@ -8,7 +8,8 @@
 	<link href="css/stylesheet.css" rel="stylesheet"  type="text/css"/>
 	<link href="css/materialize.css" rel="stylesheet" type="text/css"/>
     <link href="css/androidicons.css" rel="stylesheet" type="text/css"/>
-  <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="css/events.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
@@ -33,13 +34,13 @@
             </ul>
           </li>
           <li class="bold"><a href="resource.html" class="waves-effect waves-yellow">Resources</a></li>
-          <li class="bold"><a href="#"class="waves-effect waves-yellow">Contact</a><li>
+          <li class="bold"><a href="contact-form.php"class="waves-effect waves-yellow">Contact</a><li>
         <li class="no-padding"><!--Tabs under "Events"!-->
         <ul class="collapsible collapsible-accordion">
          <li><div class="collapsible-header active"><a href="events.html" class="collapsible-header waves-effect waves-yellow">Events</a></div>
           <div class="collapsible-body">
             <ul>
-              <li class="bold"><a href="#" class="waves-effect waves-yellow">Calendar</a></li>
+              <li class="bold"><a href="#" class="waves-effect waves-yellow" id="calendar-btn">Calendar</a></li>
               <li class="bold"><a href="#" class="waves-effect waves-yellow">Blog</a></li>
             </ul>
           </div></li>
@@ -49,6 +50,11 @@
     </header>
     
     <div class="right-wrapper">
+        <div class="container">
+            <div class="calendar-div" id="top-margin-adjust">
+                <iframe src="https://www.google.com/calendar/embed?title=QuadX%20Dates&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=bne1l5mtmuvfuhcolt0hftjb5o%40group.calendar.google.com&amp;color=%23875509&amp;ctz=America%2FChicago" style=" border-width:0 " width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
     <footer class="page-footer">
       <div class="container">
           <div class="row">
@@ -56,7 +62,7 @@
                 <h5>Connect with us</h5>
                 <div class="icons">
                   <ul class="inline-list">
-                      <li><a href="https://github.com/Tryptophan/FTC6299"><i class="ai-github"></i></a></li>
+                      <li><a href="https://github.com/linnealovespie/2016teamquadx"><i class="ai-github"></i></a></li>
                       <li><a href="https://twitter.com/6299QuadX"><i class="ai-twitter"></i></a></li>
                       <li><a href="https://www.facebook.com/ViperBots"><i class="ai-facebook"></i></a></li>
                       <li><a href="https://www.youtube.com/channel/UCJoZwwyXVdpSgbP6Gs8-h5w"><i class="ai-youtube"></i></a></li>
@@ -71,16 +77,17 @@
         </div>
            <div class="footer-copyright">
             <div class="container">
-                <a id="footer-link" href="https://github.com/linnealovespie/2016teamquadx/blob/master/LICENSE" >All Source Code Under Mozilla Open Source Liscence</a>
+                <a id="footer-link" href="https://github.com/linnealovespie/2016teamquadx/blob/master/LICENSE">All Source Code Under Mozilla Open Source Liscence</a>
                 <a class="right" id="footer-link" href="http://materializecss.com/">Materialize CSS Framework</a>
             </div>
           </div>
     </footer> 
-</div>         
+</div>        
 
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
     <script type="text/javascript" src="js/baseAnimations.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 
 </body>
 </html>

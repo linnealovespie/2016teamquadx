@@ -10,6 +10,10 @@ body{
 	margin-top:-15px;
 }
 
+h3{
+    color:#7D0E5C;
+    margin-top:0px;
+}
 .side-nav .collapsible-header {
     background-color: transparent;
     margin: 0px;
@@ -45,10 +49,6 @@ a {
     z-index: -1;
 }
 
-.btn{
-	padding:0;
-}
-
 footer.page-footer{
     background-color:#ffeb3b;
 }
@@ -61,3 +61,28 @@ h6 {
     font-size: 20px;
 }
 
+.input-field{
+    margin-top:0px;
+}
+
+.input-field label {/* label color */
+ color: #660D6C;
+}
+
+.input-field input[type=text]:focus + label {/* label focus color */
+ color: #660D6C;
+}
+
+.input-field input[type=text]:focus{/* label underline focus color */
+ border-bottom: 1px solid #660D6C;
+ box-shadow: 0 1px 0 0 #660D6C;
+}
+
+
+textarea.materialize-textarea:focus:not([readonly])+ label{
+    color:#660D6C;
+}
+
+button i{
+    font-style:normal;
+}
