@@ -2821,7 +2821,7 @@ $(document).ready(function(){
       interval: 6000
     }
     options = $.extend(defaults, options);
-
+      
     return this.each(function() {
 
       // For each slider, we want to keep track of
@@ -2879,6 +2879,7 @@ $(document).ready(function(){
           // Update indicators
           if (options.indicators) {
             $indicators.eq(index).addClass('active');
+            
           }
         }
       }
@@ -2914,6 +2915,7 @@ $(document).ready(function(){
         var $indicators = $('<ul class="indicators"></ul>');
         $slides.each(function( index ) {
           var $indicator = $('<li class="indicator-item"></li>');
+    
 
           // Handle clicks on indicators
           $indicator.click(function () {

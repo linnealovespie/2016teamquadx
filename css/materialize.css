@@ -7295,6 +7295,15 @@ select {
     right: 0;
     bottom: 0;
     margin: 0; }
+    .slider .play-btn{
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        height: 16px;
+        width: 16px;
+        margin: 0 12px;
+        background-color: #e0e0e0;
+    }
     .slider .indicators .indicator-item {
       display: inline-block;
       position: relative;
@@ -7310,7 +7319,7 @@ select {
       transition: background-color .3s;
       border-radius: 50%; }
       .slider .indicators .indicator-item.active {
-        background-color: #4CAF50; }
+        background-color: #B5D309; }
 
 /* ==========================================================================
    $BASE-PICKER

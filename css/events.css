@@ -53,4 +53,35 @@
 	color: #FFF;
 }
 
+.btn, .btn-large, .btn-flat, btn:hover {
+    border: medium none;
+    border-radius: 2px;
+    height: 36px;
+    outline: 0px none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    background-color:#b5d309;
+    
+}
 
+.btn:hover, .btn-large:hover {
+    background-color: #b5d309;
+}
+
+.btn p{
+    margin:auto;
+    font-size:12px;
+}
+
+article{
+    margin-bottom:-5px;
+}
+
+.slider{
+    margin:10px auto;
+}
+
+.slider .slides li{
+    border-radius:3px;  
+    margin:0 auto;
+}
