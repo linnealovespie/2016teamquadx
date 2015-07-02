@@ -70,7 +70,7 @@
                               <label for="textarea1">Message</label>
                             </div>
                         </div>
-                        <button class="waves-effect waves-light purple btn" type="submit" name="submit">Submit 
+                        <button class="waves-effect waves-light purple btn" type="submit" value="submit" name="submit">Submit 
     <i class="ai-send"></i>
   </button>
                      </form>
