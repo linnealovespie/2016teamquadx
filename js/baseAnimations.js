@@ -8,22 +8,21 @@ $(".button-collapse").sideNav();
 
 $( "#calendar-btn" ).click(function() {
         $( ".calendar-div" ).show( "slide");
+        $(".events-wrapper").css('display: none');
 }); 
 
-var items = $('post').length;
-var itemsPerPage = 4;
-$('.post').hide();
-$('.post').slice(0, itemsPerPage).show();
-$(function() {
-    $('.news-pagination').pagination({
-        items: items,
-        itemsOnPage: itemsPerPage,
-        onPageClick: function(pageNumber) {
-            var showFrom = itemsPerPage * (pageNumber - 1);
-            var showTo = showFrom
-            itemsPerPage;
-            $('.post').hide();
-            $('.post').slice(showFrom, showTo).show();
-        }
-    });
+/*$(".play-btn").click(function(){
+    var source = $("#first-slide").src;
+    $('.slides li').hide();
+    //$(".slides").css('background-image', "url('img/blog/2015/regionals2015-0.jpg')");
+    //style.backgroundImage = "url('img/blog/2015/regionals2015-0.jpg')";
+    $(".slides li").first().show();
+    $(".play-btn").hide();
+    $(".pause-btn i ").show();
 });
+
+$(".pause-btn").click(function(){
+    $('.slides').show();
+    $(".pause-btn i ").hide();
+    $(".play-btn").show();
+});*/
