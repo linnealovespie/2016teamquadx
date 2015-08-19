@@ -27,7 +27,7 @@ h3{
 }
 
 nav{
-    background-color:#FFEB3B;
+    background-color:#fdd835;
     height:160px;
     padding-top:2%;
     position:absolute;
@@ -50,7 +50,7 @@ a {
 }
 
 footer.page-footer{
-    background-color:#ffeb3b;
+    background-color:#fdd835;
 }
 
 /*ul li {
@@ -85,4 +85,11 @@ textarea.materialize-textarea:focus:not([readonly])+ label{
 
 button i{
     font-style:normal;
+}
+
+@media(max-width:1050px){
+    .card-panel{
+        padding:8px;
+        height:180px;
+    }
 }

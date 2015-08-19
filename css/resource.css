@@ -11,7 +11,7 @@
     width:90%;
     display:block;
     margin:auto;
-    border:2px solid #eed500;
+    border:2px solid #99b54d;/*eed500*/
     
 }
 
@@ -27,6 +27,9 @@
     margin-top:-3%;
     margin-bottom:0px;
 }
+.video-section a{
+    color:#039BE5;
+}   
 
 .video-container{
     margin-top:5%;
