@@ -9,16 +9,23 @@
 	<link href="css/materialize.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/androidicons.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="css/about.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
     <header>
+        <nav class="top-nav">
+        <div class="right-wrapper">
+            <div class="nav-wrapper"><a class="page-title">Our Robot<i><p>The evolution and major features of our robot.</p></i></a>                 
+            </div>
+        </div>
+      </nav>
         <div><a href="#" data-activates="nav-mobile" class="button-collapse top-nav waves-effect waves-light"><i class="medium mdi-navigation-menu"></i></a></div>
         <ul id="nav-mobile" class="side-nav fixed">
-          <li class="logo"><a id="logo-container" href="#" class="brand-logo"></a></li>
+          <li class="logo"><a id="logo-container" href="index.html" class="brand-logo"></a></li>
           <li class="no-padding"><!--Tabs under "About"!-->
-            <ul class="collapsible collapsible-accordion">
-             <li><div class="collapsible-header"><a href="#" div class="collapsible-header waves-effect waves-yellow">About</a></div>
+            <ul class="collapsible collapsible-accordion" data-collapsible="accordion">
+             <li><div class="collapsible-header active"><a href="#" class="collapsible-header waves-effect waves-yellow">About</a></div>
               <div class="collapsible-body">
                 <ul>
                   <li class="bold"><a href="about-team.html" class="waves-effect waves-yellow">Team</a></li>
@@ -28,13 +35,13 @@
             </ul>
           </li>
           <li class="bold"><a href="resource.html" class="waves-effect waves-yellow">Resources</a></li>
-          <li class="bold"><a href="contact-form.php" class="waves-effect waves-yellow">Contact</a><li>
+          <li class="bold"><a href="contact-form.php"class="waves-effect waves-yellow">Contact</a><li>
         <li class="no-padding"><!--Tabs under "Events"!-->
         <ul class="collapsible collapsible-accordion">
          <li><div class="collapsible-header"><a href="events.html" class="collapsible-header waves-effect waves-yellow">Events</a></div>
           <div class="collapsible-body">
             <ul>
-              <li class="bold"><a href="events.html" class="waves-effect waves-yellow">Calendar</a></li>
+              <li class="bold"><a href="#" class="waves-effect waves-yellow" id="calendar-btn">Calendar</a></li>
               <li class="bold"><a href="blog.html" class="waves-effect waves-yellow">Blog</a></li>
             </ul>
           </div></li>
@@ -43,53 +50,38 @@
         </ul>
     </header>
 
-  <div class="right-wrapper">
-    <main>
-    <img src="img/land.jpg" class="responsive-img bg-img">
-    <div class="call-action">
-        <h1 class="flow-text">Committed to more than just the game.</h1>
-        <a class="waves-effect waves-light yellow darken-1 btn" href='contact-form.php'>Contribute</a>
-    </div>  
-
-    <div class="container">
-        <div class="row  home-icons"><!--Icons directing to pages!-->
-            <div class="col s12 m4">
-                <h5>Robot</h5>
-                <a href="#"><img class="responsive-img" src="img/gear39.png"></a>
+    <div class="right-wrapper">
+        <div class="wider-container">
+        <div class="row" id="top-margin-adjust">
+            <div class="col s12">
+              <ul class="tabs">
+                <li class="tab col s3"><a class="active" a href="#test1">Trash Dash</a></li>
+                <li class="tab col s3 disabled"><a href="#test2">Competition</a></li>
+                <!--<li class="tab col s3 disabled"><a href="#test3">Robot 2.0</a></li>
+                <li class="tab col s3"><a href="#test4">Robot </a></li>!-->
+              </ul>
             </div>
-            <div class="col s12 m4">
-                <h5>Resources</h5>
-                <a href="resource.html"><img class="responsive-img" src="img/question58.png"></a>
+            <div id="test1" class="col s12">
+                <h5>The Trash Dash Trollbot</h3>
+                <p>In order to train up the rookies, we created a game for them to compete in before the season started. It's based off the FRC game from last year, only scaled down for teaching the new hardware members.</p>
+                <div class="row valign-wrapper">
+                    <div class="col m8 s12">
+                        <h6>Basket Pinchers</h6>
+                        <p>In order to grab onto and lift the basket, we mounted servo-powered "pinchers" that compress the sides of the box and can be released in order to stack more underneath.</p>
+                    </div>
+                    <div class="col m3 s12"><img class="circle responsive-img" src="img/team/trump.jpg"</img></div>
+                </div>
             </div>
-            <div class="col s12 m4">
-                <h5>Contact</h5>
-                <a href="contact-form.php"><img class="responsive-img" src="img/email5.png"></a>
-            </div>
+            <div id="test2" class="col s12">Test 2</div>
+            <!--<div id="test3" class="col s12">Test 3</div>
+            <div id="test4" class="col s12">Test 4</div>!-->
+          </div>
         </div>
-    </div>
-    <div class="wider-container">
-        <div class="row valign-wrapper">
-            <div class="col m8 s12">
-                <h3>Hello!</h3>
-                <p>We are FTC Team 6299 QuadX. This will be our third year as a team, and our first with half of the members new to the FIRST experience. We’re located in Austin, Texas and are a member of the Vandegrift ViperBots organization. We are passionate about building, programming, and marketing the awesome robots we come up with every year.</p>
-            </div>
-            <div class="col m4 s0">
-                <img class="responsive-img" id="texas" src="img/texas.png">
-            </div>
-        </div>
-        <div class="row valign-wrapper">
-            <div class="col m4 s0">
-                <img class="responsive-img" id="texas" src="img/FTC.png">
-            </div>
-            <div class="col m8 s12">
-                <h3>FTC and FIRST</h3>
-                <p>QuadX is a team that competes in the FIRST Tech Challenge (FTC). FTC is a branch of FIRST ("For Inspiration and Recognition of Science and Technology"), which consists of 3 other subsections, the the FIRST Lego League (FLL) and Jr. FLL for elementary and middle schoolers, respectively; the last subsection being FRC, the FIRST Robotics Competition. One of the key values of FIRST is that of "Gracious Professionalism," a term coined by Woodie Flowers. In short, we make it a priority not only to be successful, but to help other teams to succeed as well.</p>
-            </div>
-        </div>
-    </div>
         
-  </main>
-  <footer class="page-footer">
+ 
+    
+    
+     <footer class="page-footer">
       <div class="container">
           <div class="row">
               <div class="col m8">
@@ -116,7 +108,7 @@
             </div>
           </div>
     </footer> 
-</div>         
+</div></div></div></div>  
 
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -124,4 +116,3 @@
 
 </body>
 </html>
-
