@@ -93,3 +93,11 @@ button i{
         height:180px;
     }
 }
+
+.tabs .tab a{
+    color:#7D0E5C;
+}
+
+.tabs .indicator{
+    background-color:#7D0E5C;
+}
