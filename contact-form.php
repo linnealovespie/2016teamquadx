@@ -26,8 +26,8 @@
              <li><div class="collapsible-header"><a href="#" class="collapsible-header waves-effect waves-yellow">About</a></div>
               <div class="collapsible-body">
                 <ul>
-                  <li class="bold"><a href="#" class="waves-effect waves-yellow">Team</a></li>
-                  <li class="bold"><a href="#" class="waves-effect waves-yellow">Robot</a></li>
+                  <li class="bold"><a href="about-team.html" class="waves-effect waves-yellow">Team</a></li>
+                  <li class="bold"><a href="about-robot.html" class="waves-effect waves-yellow">Robot</a></li>
                 </ul>
               </div></li>
             </ul>

@@ -83,7 +83,7 @@ textarea.materialize-textarea:focus:not([readonly])+ label{
     color:#660D6C;
 }
 
-button i{
+button i, span i{
     font-style:normal;
 }
 

@@ -41,6 +41,13 @@ h5{
     background-size: fill;
     background-repeat:no-repeat;
 }
+
+#lift{
+    background-image: url(../img/robot/lift.jpg);
+    background-size: fill;
+    background-repeat:no-repeat;
+}
+
 .back{
     -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
