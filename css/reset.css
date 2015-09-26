@@ -22,12 +22,16 @@ h3{
     line-height: 4.5;
 }
 
+/*.side-nav .collapsible-body, .side-nav.fixed{
+    background-color:#E4E4E4;
+}*/
+
 .side-nav{
 	z-index: 999;
 }
 
 nav{
-    background-color:#fdd835;
+    background-color:#D9AF46;/*#ddae66;*/
     height:160px;
     padding-top:2%;
     position:absolute;
@@ -50,7 +54,7 @@ a {
 }
 
 footer.page-footer{
-    background-color:#fdd835;
+    background-color:#ddae66;
 }
 
 /*ul li {
@@ -100,4 +104,12 @@ button i, span i{
 
 .tabs .indicator{
     background-color:#7D0E5C;
+}
+
+.tabs .tab a:hover {
+    color: #be86aC;
+}
+
+.yellow.darken-1 {
+    background-color: #ddae66 !important;
 }

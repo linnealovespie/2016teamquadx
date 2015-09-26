@@ -1,3 +1,30 @@
+/*SocioIcon Initialization*/
+@font-face {
+    font-family: 'socicon';
+    src: url('../font/socicon.eot');
+    src: url('../font/socicon.eot?#iefix') format('embedded-opentype'),
+         url('../font/socicon.woff') format('woff'),
+         url('../font/socicon.ttf') format('truetype'),
+         url('../font/socicon.svg#sociconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    text-transform: initial;
+}
+
+.socicon {
+    font-family: 'socicon' !important;
+}
+
+body{
+    background-color:#E4E4E4;
+}
+
+.right-wrapper{
+    background-image:url(../img/background.jpg);
+    background-repeat:repeat;
+}
+
+
 .bg-img{
 	
 	-webkit-box-shadow: -5px 5px 2px 0px rgba(107,107,107,1);
@@ -94,7 +121,7 @@ ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
 
 .icons i{
     font-size:30px;
-    color: #FFF493;
+    color: #f9f0e4;
     font-style:normal;
     margin:0 1.5% 0 1.5%;
 }
@@ -121,7 +148,7 @@ ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
     
 }
 .page-footer h5{
-    color:#fdf5a7;
+    color:#f9f0e4;
 }
 
 #viperbots{
@@ -166,7 +193,7 @@ ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
 }
 
 @media(max-width:360px){
-    .call-action h1{
+    .call-action h1
         display:none;
     }
 }
@@ -182,4 +209,8 @@ ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
 
 .ai-send{
     margin-left:3px;
+}
+
+.call-btn{
+    background-color:#D9AF46;/*#ddae66;*/
 }
