@@ -4,11 +4,15 @@
     top:190px;
 }
 
+h5{
+    color:#2F5A8A;
+}
 
 .article{
     padding:2%;
     border-radius:3px;
     margin-bottom:5%;
+    background-color: #EACD6C;
 }
 
 
@@ -51,7 +55,7 @@
 }
 
 .pagination li.active{
-    background-color: #DBF739; 
+    background-color: #D4713C; 
 }
 .pagination ul li a:visited {
 	color: #FFF;
@@ -64,7 +68,7 @@
     outline: 0px none;
     text-transform: uppercase;
     vertical-align: middle;
-    background-color:#b5d309;
+    background-color:#D4713C;
     
 }
 
@@ -98,7 +102,7 @@
 }
 
 .btn:hover, .btn-large:hover {
-    background-color: #b5d309;
+    background-color: #D4713C;
 }
 
 .btn p{

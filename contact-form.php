@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 	<link href="css/stylesheet.min.css" rel="stylesheet"  type="text/css"/>
 	<link href="css/materialize.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/androidicons.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/socicon.css" rel="stylesheet" type="text/css"/>
     <link href="css/reset.css" rel="stylesheet" type="text/css"/>
 </head>
 
@@ -70,7 +70,7 @@
                               <label for="textarea1">Message</label>
                             </div>
                         </div>
-                        <button class="waves-effect waves-light purple btn" type="submit" value="submit" name="submit">Submit 
+                        <button class="waves-effect waves-light btn" type="submit" value="submit" name="submit">Submit 
     <i class="ai-send"></i>
   </button>
                      </form>
@@ -85,11 +85,11 @@
                 <h5>Connect with us</h5>
                 <div class="icons">
                   <ul class="inline-list">
-                      <li><a href="https://github.com/linnealovespie/2016teamquadx"><i class="ai-github"></i></a></li>
-                      <li><a href="https://twitter.com/6299QuadX"><i class="ai-twitter"></i></a></li>
-                      <li><a href="https://www.facebook.com/ViperBots"><i class="ai-facebook"></i></a></li>
-                      <li><a href="https://www.youtube.com/channel/UCJoZwwyXVdpSgbP6Gs8-h5w"><i class="ai-youtube"></i></a></li>
-                    
+                      <li><a href="https://github.com/linnealovespie/2016teamquadx"><span class="socicon socicon-github"></span></a></li>
+                      <li><a href="https://twitter.com/6299QuadX"><span class="socicon socicon-twitter"></span></a></li>
+                      <li><a href="https://www.facebook.com/ViperBots"><span class="socicon socicon-facebook"></span></li>
+                      <li><a href="https://www.youtube.com/channel/UCJoZwwyXVdpSgbP6Gs8-h5w"><span class="socicon socicon-youtube"></span></a></li>
+                      <li><a href="mailto:quadx6299@gmail.com"><span class="socicon socicon-mail"></span></a></li>
                   </ul>
                 </div>
             </div>

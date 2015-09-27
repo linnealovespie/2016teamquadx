@@ -11,7 +11,7 @@ body{
 }
 
 h3{
-    color:#7D0E5C;
+    color:#0F335A;
     margin-top:0px;
 }
 .side-nav .collapsible-header {
@@ -31,7 +31,7 @@ h3{
 }
 
 nav{
-    background-color:#D9AF46;/*#ddae66;*/
+    background-color:#D4983C;/*#ddae66;*/
     height:160px;
     padding-top:2%;
     position:absolute;
@@ -45,16 +45,16 @@ a#logo-container.brand-logo{
 }
 
 a {
-    color: #9366D6;
+    color: #6391C5;
 }
 
 .mdi-navigation-menu{
-    color:#C0F138;
+    color:#EAD58D;
     z-index: -1;
 }
 
 footer.page-footer{
-    background-color:#ddae66;
+    background-color:#d4983c;
 }
 
 /*ul li {
@@ -70,21 +70,20 @@ h6 {
 }
 
 .input-field label {/* label color */
- color: #660D6C;
+ color: #D4B23C;
 }
 
 .input-field input[type=text]:focus + label {/* label focus color */
- color: #660D6C;
+ color: #D4B23C;
 }
 
 .input-field input[type=text]:focus{/* label underline focus color */
- border-bottom: 1px solid #660D6C;
- box-shadow: 0 1px 0 0 #660D6C;
+ border-bottom: 1px solid #D4B23C;
+ box-shadow: 0 1px 0 0 #D4B23C;
 }
 
-
 textarea.materialize-textarea:focus:not([readonly])+ label{
-    color:#660D6C;
+    color:#D4983C;
 }
 
 button i, span i{
@@ -99,17 +98,21 @@ button i, span i{
 }
 
 .tabs .tab a{
-    color:#7D0E5C;
+    color:#0F335A;
 }
 
 .tabs .indicator{
-    background-color:#7D0E5C;
+    background-color:#0F335A;
 }
 
 .tabs .tab a:hover {
-    color: #be86aC;
+    color: #6391C5;
 }
 
 .yellow.darken-1 {
     background-color: #ddae66 !important;
+}
+
+.btn, .btn-large, .btn:hover, .btn-large:hover{
+    background-color:#D4713C;
 }
