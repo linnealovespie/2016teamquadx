@@ -57,8 +57,6 @@ h5{
     padding:2%;
 }
 
-.back img{}
-
 .flipper:hover .front{
     -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
@@ -75,3 +73,10 @@ h5{
     margin:0 auto 0 auto;
 }
 
+#align h5{
+    margin-top:0px;
+}
+
+#align img{
+    border-radius:5px;
+}

@@ -1,0 +1,193 @@
+[33mcommit f35b74c3ca715a64e8d1b3c1396c114cc7fb1c08[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Sat Sep 26 22:59:23 2015 -0500
+
+    Finished recolouring of the website. Uploaded to the server.
+
+[33mcommit 0d7d00d3a7d40bb3ee107d55ac6313a6a6f2b926[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Fri Sep 25 21:16:07 2015 -0500
+
+    As per request of the team, I'm making some changes. Commiting before they get too drastic.
+
+[33mcommit 694452133c3466cde6eab0e8b1bb2c8bab24e48f[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Tue Sep 8 22:15:33 2015 -0500
+
+    About Stuff is DONE- pictures, new cards, descriptions. TODO: Contact functionalilty, blog
+
+[33mcommit dd12765ad1b6ed80663043c887a1e9a82549c495[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Fri Sep 4 11:19:47 2015 -0500
+
+    Robot page is all done for now. Just need better pictures. TODO: Facts for the team page.
+
+[33mcommit 27cadf595bf668d77cd54d873c40609fdf7ad7f0[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Thu Sep 3 17:23:16 2015 -0500
+
+    Cards work! Trump is pleased to present the features of the troll bot. Will get pictures soon.
+
+[33mcommit 93a8e11096ba4c44cb1f5bd6a07a7eccbeb79a13[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Thu Sep 3 08:19:18 2015 -0500
+
+    Robot page- gonna try making a cool flip card.
+
+[33mcommit 7628dcf90d5522af6eef2c212a27fad110076f60[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Wed Aug 19 00:19:02 2015 -0500
+
+    Team page and profiles
+
+[33mcommit a5d4d72a64d976c28909c80e93018f42841fa568[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Mon Aug 10 21:47:13 2015 -0500
+
+    First push to teamquadx.org- .min.css files, "coming soon" for about pages
+
+[33mcommit 56a51e53848b4f2ca7a3b690641bc7462e030e50[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Fri Jul 24 14:59:25 2015 -0500
+
+    Added comment
+
+[33mcommit cfc7a5bc32d88f668dc61e4ed5bba245b82d9718[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Fri Jul 24 13:42:51 2015 -0500
+
+    lists
+
+[33mcommit 0e3de36ad1c6e4e4f33a6609a8be78f9141ceee0[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Sat Jul 18 15:56:53 2015 -0500
+
+    added some stuff to the website
+
+[33mcommit 91c074e279a331f290e05c51898e7dbfbb1caaf3[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Wed Jul 1 23:30:02 2015 -0500
+
+    Contact form ready for added to server, began events page.
+
+[33mcommit 1ad96a9353a5c091f47b31bf0cd030c8b35b23dd[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Tue Jun 30 00:35:07 2015 -0500
+
+    Added in first 4 posts with readmores and sliders. TODO: make a "play" button, and only load the sliders of the page currently on.
+
+[33mcommit 9a6019ead7c3378de80b944260eba0d5921eb914[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Mon Jun 29 22:27:39 2015 -0500
+
+    Set up the blog/pagination, *just* need to add in the entries :P
+
+[33mcommit dcaf9be5061c37fd50806eb01d89a16242df271b[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Sun Jun 28 16:18:43 2015 -0500
+
+    Ho boy- contact form (get jacob's help), calendar (events page?), and more info on the home page.
+
+[33mcommit 2e0b6609e0eabe27c2f4ca8461d2e7983a0b2144[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Sat Jun 27 23:59:05 2015 -0500
+
+    Resources is pretty done, some random prettiness, events page
+
+[33mcommit 3311093bcadef83061a925189e99d18625efb8c1[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Sat Jun 27 00:13:37 2015 -0500
+
+    I really don't wanna sleep- pdfs and other minor stuff to avoid bed
+
+[33mcommit 4f43a13f19125777b6ac1d34493d18b8aeb9a77b[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Sat Jun 27 00:00:22 2015 -0500
+
+    Added videos, footer to resources page
+
+[33mcommit fa5455f89de039150d0f9410523727f9e6a01c40[m
+Merge: e568098 19a08bd
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Fri Jun 26 18:20:36 2015 -0500
+
+    Merge remote-tracking branch 'origin/master'
+    
+    Conflicts:
+    	index.html
+
+[33mcommit e5680982f90fb24fc5a83b2f2bbf90df83d56e43[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Fri Jun 26 18:11:23 2015 -0500
+
+    Resource page has been started
+    TODO: complete resources, more content to homepage
+
+[33mcommit e0093cddc95f4e2b7df7b66e4f8aaba12bbc040a[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Tue Jun 16 20:25:46 2015 -0500
+
+    stuff, forget what
+
+[33mcommit 19a08bd98e2394fa39c8fbbd28ab9cf56ce637df[m
+Author: Linnea May <linnealovespie@gmail.com>
+Date:   Mon Jun 15 11:08:11 2015 -0500
+
+    icons for footer, jquery for ALL!
+
+[33mcommit 3dd2e0120f00eccb354a058ce5f18ea6eb7c742e[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Mon Jun 15 08:19:05 2015 -0500
+
+    playing with brackets :>
+
+[33mcommit faadf3735a9c9fab97b1cc1a15fa6f78882901c0[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Sat Jun 13 08:52:38 2015 -0500
+
+    Call to action positioned nicely on all screen sizes
+    NOTE: get a better box shadow, and make CtA look better
+
+[33mcommit 2fdbfcc35afb6bb69f08daa097cce8cf81470468[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Thu Jun 11 19:24:37 2015 -0500
+
+    Responsive landing image and bottom stuff shows up, but positioning still wierd
+
+[33mcommit 52c470ab15ea9b3bfb1cf7b25480e873db7dea9e[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Thu Jun 11 10:04:01 2015 -0500
+
+    Add contribute button, still need to change opactiy/ get footer to show
+
+[33mcommit 0d4316b740bd031e63f9d42b5cf9848a5679712b[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Sun Jun 7 21:27:41 2015 -0500
+
+    Call to action
+
+[33mcommit ed09d2e0fdab0b26b111621c42575a91f8db8fc8[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Sun Jun 7 20:31:10 2015 -0500
+
+    Nav logo and clicking works, working on stuff under landing img
+
+[33mcommit 27bf2855598cea614c5351586ad1658e73caa508[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Sun Jun 7 14:49:42 2015 -0500
+
+    Accordion nav subtopics, need to add in logo
+
+[33mcommit f5d3ac05bb09001bc3ead014ceecb0f83550bf86[m
+Author: linnealovespie <linnealovespie@gmail.com>
+Date:   Sun Jun 7 13:23:02 2015 -0500
+
+    Landing
+    
+    Implemented materialize and add side nav/landing img
+
+[33mcommit 8493ef85110ee276883f8d06b2ae0299b8a32aa8[m
+Author: Linnea May <linnealovespie@gmail.com>
+Date:   Sun Jun 7 10:02:39 2015 -0500
+
+    Initial commit

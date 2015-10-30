@@ -9,6 +9,8 @@
 	<link href="css/materialize.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/socicon.css" rel="stylesheet" type="text/css"/>
     <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="php/styles.css" rel="stylesheet" type="text/css"/>
+    
 </head>
 
 <body>
@@ -50,7 +52,14 @@
     <div class="right-wrapper">
         <div class="container">
             <div class="contact-wrapper" id="top-margin-adjust">
-                 <div class="row">
+                
+                <form action="php/contact.php" method="POST">
+                <p>Name</p> <input type="text" name="name">
+                <p>Email</p> <input type="text" name="email">
+                <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+                <input class="btn" type="submit" value="Send"><input class="btn"type="reset" value="Clear" id="clear">
+                </form>
+                 <!--<div class="row">
                     <form class="col s12" action="php/contact.php">
                       <div class="row">
                         <div class="input-field col s6">
@@ -75,7 +84,7 @@
   </button>
                      </form>
                       
-                </div>
+                </div>!-->
             </div>
         </div>
      <footer class="page-footer">
@@ -85,7 +94,7 @@
                 <h5>Connect with us</h5>
                 <div class="icons">
                   <ul class="inline-list">
-                      <li><a href="https://github.com/linnealovespie/2016teamquadx"><span class="socicon socicon-github"></span></a></li>
+                      <li><a href="https://github.com/jspspike/FTC6299"><span class="socicon socicon-github"></span></a></li>
                       <li><a href="https://twitter.com/6299QuadX"><span class="socicon socicon-twitter"></span></a></li>
                       <li><a href="https://www.facebook.com/ViperBots"><span class="socicon socicon-facebook"></span></li>
                       <li><a href="https://www.youtube.com/channel/UCJoZwwyXVdpSgbP6Gs8-h5w"><span class="socicon socicon-youtube"></span></a></li>

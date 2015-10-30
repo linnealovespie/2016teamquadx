@@ -143,4 +143,5 @@ footer.page-footer {
 .slider .slides{
     background-image:none;
     background-size:100%;
+    border-radius:5px;
 }

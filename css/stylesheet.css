@@ -20,7 +20,6 @@ body{
 }
 
 .right-wrapper{
-    background-image:url(../img/background.jpg);
     background-repeat:repeat;
 }
 
@@ -177,7 +176,7 @@ ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
 @media(max-width:500px){
 	.call-action a{
 		top:5%;
-		width:95%;
+		width:70%;
 		font-size:12px;
 	}
     #texas{
@@ -187,11 +186,13 @@ ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
 
 @media(max-width:700px){
 	.call-action {
-		top:10%;
-	}
-    .call-action{
+		top:5%;
         width:70%;
         left:17%;
+        padding:0px;
+    }
+    .call-action h1{
+        margin: 2px;
     }
 }
 
@@ -217,3 +218,11 @@ ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
 .call-btn{
     background-color:#D9AF46;/*#ddae66;*/
 }
+
+.section{
+    margin-top:3%;
+    margin-bottom:3%;
+    background-color:#D4B23C;
+    height:20%;
+}
+

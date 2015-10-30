@@ -116,3 +116,11 @@ button i, span i{
 .btn, .btn-large, .btn:hover, .btn-large:hover{
     background-color:#D4713C;
 }
+
+.card .card-content .card-title {
+    line-height:30px;
+}
+
+i.right {
+    margin-left:0px;
+}

@@ -1,0 +1,15 @@
+.btn{
+    margin-right:2%;
+}
+
+#clear{
+    background-color:#EA986C;
+}
+
+#success{
+    color:green;
+}
+
+#fail{
+    color:red;
+}

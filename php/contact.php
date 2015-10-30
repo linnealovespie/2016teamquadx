@@ -1,15 +1,15 @@
-<?php 
-    $name = $_POST["first_name"];
-    $email = $_POST["email"];
-    $to = "quadx6299@gmail.com";
-    $subject = "AUTOMATED EMAIL FROM teamquadx.org, DO NOT REPLY.";
-	$message = $email . "\n" . $_POST['textarea1'];
-
-    if ($email != "" && $message != "") {
-            mail($to, $subject, $message);
-            header("Location: contact-form.php");
-    }
-    else {
-		header("Location: http://teamquadx.org/failure.php");
+<?php $name = $_POST['name'];
+$email = $_POST['email'];
+$message = $_POST['message'];
+$formcontent="From: $name \n Message: $message";
+$recipient = "quadx6299@gmail.com";
+$subject = "Contact Form";
+$mailheader = "From: $email \r\n";
+if ($email != "" && $message != "") {
+		mail($to, $subject, $message);
+		header("Location: http://teamquadx.org/success.php");
 	}
-?> 
+	else {
+		header("Location: http://teamquadx.org/fail.php");
+	}
+?>
