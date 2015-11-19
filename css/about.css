@@ -78,3 +78,63 @@ h5{
 #align img{
     border-radius:5px;
 }
+
+/*Timeline styles*/
+.side-line{
+    height:600px; 
+    width:5px;
+    background-color:black;
+    margin:auto;
+}
+
+.side-pics{
+    margin:auto 10px;
+}
+
+.side-line .side-pics li img{
+    width: 200px;
+    position: absolute;
+    left: 436px;
+    /* bottom: 100px; */
+    /* top: -100px; */
+    bottom: -150px;
+}
+
+.side-line .side-pics li #second-side{
+    width: 200px;
+    /*position: absolute;
+    left: 436px;
+    bottom:-375px;*/
+    background-image:url(../img/robot/brickLift.png);
+    background-size:cover;
+}
+
+#mid-line{
+    height:600px; 
+    width:5px;
+    background-color:black;
+    margin:auto;
+}
+
+.poop{
+   width: 200px;
+    /*position: absolute;
+    bottom: 1px;
+    right: 480px;*/
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url(../img/robot/brickLift.png);
+    /*background-size:cover; */
+    
+}
+.mid-pics li{
+    width: 200px;
+    /*position: absolute;
+    bottom: 1px;
+    right: 480px;*/
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url(../img/robot/brickLift.png);
+    background-size:cover;
+}
+
