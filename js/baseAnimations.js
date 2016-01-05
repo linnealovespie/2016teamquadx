@@ -6,10 +6,10 @@ $( document ).ready(function() {
 
 $(".button-collapse").sideNav();
 
-$( "#calendar-btn" ).click(function() {
+/*$( "#calendar-btn" ).click(function() {
         $( ".calendar-div" ).show( "slide");
         $(".events-wrapper").css('display: none');
-}); 
+}); */
 
 /*$(".play-btn").click(function(){
     var source = $("#first-slide").src;

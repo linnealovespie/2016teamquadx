@@ -26,28 +26,21 @@
           <li class="logo"><a id="logo-container" href="index.html" class="brand-logo"></a></li>
           <li class="no-padding"><!--Tabs under "About"!-->
             <ul class="collapsible collapsible-accordion">
-             <li><div class="collapsible-header"><a href="#" class="collapsible-header waves-effect waves-yellow">About</a></div>
+             <li><div class="collapsible-header"><a href="#" div class="collapsible-header waves-effect waves-yellow">About</a></div>
               <div class="collapsible-body">
                 <ul>
-                  <li class="bold"><a href="about-team.html" class="waves-effect waves-yellow">Team</a></li>
-                  <li class="bold"><a href="about-robot.html" class="waves-effect waves-yellow">Robot</a></li>
+                    <li class="bold"><a href="about-team.html" class="waves-effect waves-yellow">The Team</a></li>
+                    <li class="bold"><a href="about-robot.html" class="waves-effect waves-yellow">Our Robot</a></li>
+                    <li class="bold"><a href="history.html" class="waves-effect waves-yellow">Team History</a></li>
+
                 </ul>
               </div></li>
             </ul>
           </li>
-          <li class="bold"><a href="resource.html" class="waves-effect waves-yellow">Resources</a></li>
-          <li class="bold"><a href="contact-form.php"class="waves-effect waves-yellow">Contact</a><li>
-        <li class="no-padding"><!--Tabs under "Events"!-->
-        <ul class="collapsible collapsible-accordion">
-         <li><div class="collapsible-header"><a href="events.html" class="collapsible-header waves-effect waves-yellow">Events</a></div>
-          <div class="collapsible-body">
-            <ul>
-              <li class="bold"><a href="events.html" class="waves-effect waves-yellow">Calendar</a></li>
-              <li class="bold"><a href="blog.html" class="waves-effect waves-yellow">Blog</a></li>
-            </ul>
-          </div></li>
-        </ul>
-      </li>
+            <li class="bold"><a href="resource.html" class="waves-effect waves-yellow">Resources</a></li>
+            <li class="bold"><a href="contact-form.php" class="waves-effect waves-yellow">Contact</a><li>
+            <li class="bold"><a href="events.html" class="waves-effect waves-yellow">Events</a></li>
+            <li class="bold"><a href="blog.html" class="waves-effect waves-yellow">Blog</a></li>
         </ul>
     </header>
     <div class="right-wrapper">

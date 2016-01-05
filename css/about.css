@@ -141,3 +141,120 @@ h5{
 #team-pic{
     margin:0 auto 0 auto;
 }
+
+#about-slider{
+    height:90%;
+}
+
+/*History sytles*/
+
+.collapsible-body{
+    padding:10px 20px;
+}
+
+.section{
+    margin-top:3%;
+    margin-bottom:3%;
+    background-color:#D4B23C;
+    padding:3% 10% 3%;
+    -webkit-box-shadow: 1px 2px 30px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 30px -3px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 30px -3px rgba(0,0,0,0.75);
+}
+
+#cascade-effect{
+    background-image: url(../img/history/supers3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#block-party{
+    background-image: url(../img/history/blockParty.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg {/*white text for placed onto pictures*/
+    color:white;
+}
+
+#jacob{
+    background-image:url("../img/history/jacob%20-%20Copy.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    /*border-radius:100px;*/
+    width:100%;
+    height:200px;
+    -webkit-transition: all .5s ease-out 0s;
+  -moz-transition: all .5s ease-out 0s;
+  -ms-transition: all .5s ease-out 0s;
+  -o-transition: all .5s ease-out 0s;
+  transition: all .5s ease-out 0s;
+    margin:auto;
+}
+
+#jacob:hover{
+    background-image: url("../img/history/utd.jpg");
+    z-index:900;
+    border-radius:25px;
+}
+
+#sahil{
+    background-image:url("../img/history/sahil.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    /*border-radius:100px;*/
+    width:100%;
+    height:200px;
+    -webkit-transition: all .5s ease-out 0s;
+  -moz-transition: all .5s ease-out 0s;
+  -ms-transition: all .5s ease-out 0s;
+  -o-transition: all .5s ease-out 0s;
+  transition: all .5s ease-out 0s;
+    margin:auto;
+}
+
+#alumni{
+    margin-bottom:0px;
+}
+
+#sahil:hover{
+    background-image: url("../img/history/duke.png");
+    z-index:900;
+    border-radius:25px;
+}
+
+#till{
+    background-image:url("../img/history/till.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    /*border-radius:100px;*/
+    width:100%;
+    height:200px;
+    -webkit-transition: all .5s ease-out 0s;
+  -moz-transition: all .5s ease-out 0s;
+  -ms-transition: all .5s ease-out 0s;
+  -o-transition: all .5s ease-out 0s;
+  transition: all .5s ease-out 0s;
+    margin:auto;
+}
+
+#till:hover{
+    background-image: url("../img/history/rit.png");
+    z-index:900;
+    border-radius:25px;
+}
+
+.card-panel{
+    height:auto;
+    padding-bottom:0px;
+}
+
+@media(max-width:750px){
+    #jacob, #sahil, #till{
+        height:150px;
+    }
+}

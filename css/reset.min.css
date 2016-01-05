@@ -9,7 +9,7 @@ a#logo-container.brand-logo{background-image:url(../img/logo.png);background-rep
 a{color:#6391C5}
 .mdi-navigation-menu{color:#EAD58D;z-index:-1}
 footer.page-footer{background-color:#d4983c}
-h6{font-size:20px}
+h6{font-size:20px;line-height:23px}
 .input-field{margin-top:0}
 .input-field input[type=text]:focus+label,.input-field label{color:#D4B23C}
 .input-field input[type=text]:focus{border-bottom:1px solid #D4B23C;box-shadow:0 1px 0 0 #D4B23C}
