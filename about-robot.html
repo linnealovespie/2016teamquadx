@@ -10,6 +10,8 @@
     <link href="css/reset.css" rel="stylesheet" type="text/css"/>
     <link href="css/about.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/socicon.css" rel="stylesheet" type="text/css"/>
+    <link href="css/fsbanner.css" rel="stylesheet" type="text/css"/>
+    
 </head>
 
 <body>
@@ -89,12 +91,24 @@
                 <div class="row" ><a href="https://docs.google.com/document/d/1-g8spKypEzGG9b6-Fjd4grDcqMrg7CXsLxf8uZnlmeg/edit?usp=sharing"><img class="responsive-image" id="no-container" src="img/robot/preSeason.JPG"></a></div>
             </div>
             <div id="test2" class="col s12">
+               
+
                 <!--<div class="row" ><a href="https://docs.google.com/document/d/1HuVN-jpgVw6jabZwYLtVQcnaxwbtO_m6uWkFJ5yuxCE/edit?usp=sharing"><img class="responsive-image" id="no-container" src="img/robot/October.png"></a></div>
               <div class="row" ><a href="https://docs.google.com/document/d/1HuVN-jpgVw6jabZwYLtVQcnaxwbtO_m6uWkFJ5yuxCE/edit?usp=sharing"><img class="responsive-image" id="no-container" src="img/robot/November.jpg"></a></div>!-->
             </div>
             <div id="test3" class="col s12">
                 <div class="row">
-                    <iframe src='//cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1m2PUyT4x43_4Mw3BOKPbakQGFyxrm3uQU1c9eCxQaHg&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' frameborder='0'></iframe>
+                    <iframe src='//cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1m2PUyT4x43_4Mw3BOKPbakQGFyxrm3u QU1c9eCxQaHg&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' frameborder='0'></iframe>
+                    <h3>Engineering Notebook</h3>
+                    <p>This year, we decided to maintain a digital EN on Google Drive to encourage every member to contribute to the process of summarizing our progress and analyzing our actions. We split it up into each month, and the entire EN consists of over 200 pages describing our season so far. </p>
+                     <div class='fsbanner' id="demo-1">
+                    <!-- first banner -->
+                        <div style='background-image:url(img/robot/EN_Title_Pre.jpg)'/><a href="https://drive.google.com/open?id=1-g8spKypEzGG9b6-Fjd4grDcqMrg7CXsLxf8uZnlmeg"><span class='name' a href="">PRE-SEASON</span></a><p>Rookie Training<br>Team Structure Setup<br>Game Reveal</p></div>
+                        <!-- second banner -->
+                        <div style='background-image:url(img/robot/EN_Title_October.jpg)'/><a href="https://drive.google.com/open?id=1HuVN-jpgVw6jabZwYLtVQcnaxwbtO_m6uWkFJ5yuxCE"><span class='name' a href="">OCTOBER</span></a><p>Element Design<br>Initial Prototyping<br>Sensor Setup</p></div>
+                        <div style='background-image:url(img/robot/EN_Title_November.jpg)'/><a href="https://drive.google.com/open?id=1wRJUMk1AKxFeFINz8eU5uzerYC-atheyMOQm66d2nk8"><span class='name' a href="">NOVEMBER</span></a><p>Scrimmage<br>Robot Redesign</p></div>
+                        <div style='background-image:url(img/robot/EN_Title_December.jpg)'/><a href="https://drive.google.com/open?id=1Q_SWLZ53UA0hkqz8YvViwkr6kpoo9Gwos-xBEf6W1PU"><span class='name' a href="">DECEMBER</span></a><p>Qualifier #1<br>Final Manipulator Design<br>Autonomous Strategizing</p></div>
+                    </div>
                 </div>
             </div>
             <!--<div id="test4" class="col s12">Test 4</div>!-->
@@ -129,10 +143,14 @@
           </div>
     </footer> 
 </div></div></div></div>  
-
-    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <!--<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script> !-->
+    <!--<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>!-->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> 
+    <script src="js/fsbanner.js"></script> 
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/baseAnimations.js"></script>
-
+    <script>
+        $('#demo-1').fsBanner();
+    </script>
 </body>
 </html>

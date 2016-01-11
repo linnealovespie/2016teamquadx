@@ -1,7 +1,7 @@
 $( document ).ready(function() {   
 	$(".dropdown-button").dropdown();
     $('.slider').slider('start');
-    
+      
 });
 
 $(".button-collapse").sideNav();

@@ -8,6 +8,7 @@ h5{
     margin-top: 20px;
 }
 
+/*Robot styles*/
 .flipper{
     position: relative;
     float: center;
@@ -65,79 +66,83 @@ h5{
           transform: rotateY(0);
 }
 
+/*#horiz-accordion {
+list-style: none;
+margin: 30px 0;
+padding: 0;
+height: 200px;
+overflow: hidden;
+background: #7d8d96;}
+ 
+#horiz-accordion li {
+float: left;
+border-left:
+display: block;
+height: 170px;
+width: 50px;
+padding: 15px 0;
+overflow: hidden;
+color: #fff;
+text-decoration: none;
+font-size: 16px;
+line-height: 1.5em;
+border-left: 1px solid #fff;}
+ 
+#horiz-accordion li img {
+border: none;
+border-right: 1px solid #fff;
+float: left;
+margin: -15px 15px 0 0;
+}
+ 
+#horiz-accordion li.active {
+width: 450px;
+}
+
+/*.bg-block{
+    padding:5px;
+    border-radius:5px;
+    text-align:center;
+    /*margin-top:10px;
+}
+
+.bg-block img{
+   width:90%;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#hidden-img{
+    width:100%;
+    height:100%;
+    padding:0px;
+}*/
+
+.y1{
+    background-color:#ffb748;
+}
+
+.y2{
+    background-color:#edaa43;
+}
+
+.y3{
+    background-color:#d4983c;
+}
+
+.y4{
+    background-color:#c68e38;
+}
+
 #kickoff img{
     width:80%;
     display:block;
     margin:0 auto 0 auto;
 }
 
-#align h5{
-    margin-top:0px;
-}
-
-#align img{
-    border-radius:5px;
-}
-
-/*Timeline styles*/
-.side-line{
-    height:600px; 
-    width:5px;
-    background-color:black;
-    margin:auto;
-}
-
-.side-pics{
-    margin:auto 10px;
-}
-
-.side-line .side-pics li img{
-    width: 200px;
-    position: absolute;
-    left: 436px;
-    /* bottom: 100px; */
-    /* top: -100px; */
-    bottom: -150px;
-}
-
-.side-line .side-pics li #second-side{
-    width: 200px;
-    /*position: absolute;
-    left: 436px;
-    bottom:-375px;*/
-    background-image:url(../img/robot/brickLift.png);
-    background-size:cover;
-}
-
-#mid-line{
-    height:600px; 
-    width:5px;
-    background-color:black;
-    margin:auto;
-}
-
-.poop{
-   width: 200px;
-    /*position: absolute;
-    bottom: 1px;
-    right: 480px;*/
-    margin-left:auto;
-    margin-right:auto;
-    background-image:url(../img/robot/brickLift.png);
-    /*background-size:cover; */
-    
-}
-.mid-pics li{
-    width: 200px;
-    /*position: absolute;
-    bottom: 1px;
-    right: 480px;*/
-    margin-left:auto;
-    margin-right:auto;
-    background-image:url(../img/robot/brickLift.png);
-    background-size:cover;
-}
-
+/*About-team styles*/
 #team-pic{
     margin:0 auto 0 auto;
 }
@@ -169,7 +174,7 @@ h5{
 }
 
 #block-party{
-    background-image: url(../img/history/blockParty.jpg);
+    background-image: url(../img/history/bloc   kParty.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -256,5 +261,8 @@ h5{
 @media(max-width:750px){
     #jacob, #sahil, #till{
         height:150px;
+    }
+    #alumni{
+        font-size:11px;
     }
 }
