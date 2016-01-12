@@ -93,35 +93,46 @@ border: none;
 border-right: 1px solid #fff;
 float: left;
 margin: -15px 15px 0 0;
-}
+}*/
  
 #horiz-accordion li.active {
 width: 450px;
 }
 
-/*.bg-block{
-    padding:5px;
+.bg-block{
+    padding:3px;
     border-radius:5px;
     text-align:center;
-    /*margin-top:10px;
+    /*margin-top:10px;*/
+    height:275px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
 }
 
-.bg-block img{
-   width:90%;
+.bg-block img, .bg-block p{
+    width:90%;
     margin:auto;
-    display:flex;
-    justify-content: center;
-    align-items:center;
+    /*white-space:nowrap;*/
+    overflow-y: scroll;              /* "overflow" value must be different from "visible" */ 
+
+    /*text-overflow: ellipsis;*/
+}
+
+.bg-block p{
+    height:90%;
 }
 
 #hidden-img{
     width:100%;
     height:100%;
     padding:0px;
-}*/
+}
 
 .y1{
     background-color:#ffb748;
+    background-size:cover;
 }
 
 .y2{
