@@ -1,5 +1,0 @@
-.fsbanner,.fsbanner>div>span{display:none}
-div.fsbanner{position:relative;overflow:hidden;height:300px;color:#fff;font-size:20px;font-family:Verdana;font-weight:700;border-radius:5px;-webkit-text-stroke:1px #000}
-.fsbanner>div{position:absolute;background-size:cover;cursor:pointer;top:0;left:0}
-.fsbanner>div .name{display:block;position:absolute;left:10px;bottom:10px}
-.fsbanner>div .name.minimized{transform:rotate(-90deg);transform-origin:left top 0;bottom:-13px;left:7px}

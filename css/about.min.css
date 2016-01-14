@@ -12,6 +12,25 @@ h5{margin-top:20px}
 .bg-block{padding:3px;border-radius:5px;text-align:center;height:275px;display:flex;justify-content:center;align-items:center;margin-top:10px}
 .bg-block img,.bg-block p{width:90%;margin:auto;overflow-y:scroll}
 .bg-block p{height:90%}
+.accordion{width:100%;max-width:1080px;height:250px;overflow:hidden;margin:50px auto}
+.accordion ul{width:100%;display:table;table-layout:fixed;margin:0;padding:0}
+.accordion ul li{display:table-cell;vertical-align:bottom;position:relative;width:16.666%;height:250px;background-repeat:no-repeat;background-position:center center;transition:all 500ms ease}
+.accordion ul li div{display:block;overflow:hidden;width:100%}
+.accordion ul li div .panel{display:block;height:250px;width:100%;position:relative;z-index:3;vertical-align:bottom;padding:15px 20px;box-sizing:border-box;color:#fff;transition:all 200ms ease}
+.accordion ul li div .panel *{opacity:0;margin:0;width:100%;text-overflow:ellipsis;position:relative;z-index:5;white-space:nowrap;overflow:hidden;-webkit-transform:translateX(-20px);transform:translateX(-20px);-webkit-transition:all 400ms ease;transition:all 400ms ease}
+.accordion ul li div .panel h2{text-overflow:clip;font-size:24px;text-transform:uppercase;margin-bottom:2px;top:100px;color:#fff}
+.accordion ul li div .panel p{top:100px;font-size:13.5px;-webkit-transition:color .28s ease;-moz-transition:color .28s ease;-o-transition:color .28s ease;-ms-transition:color .28s ease;transition:color .28s ease}
+.accordion ul li div .panel a h2:hover{color:#9bb8da}
+.accordion ul li:nth-child(1){background-image:url(../img/robot/EN_Title_Pre.jpg)}
+.accordion ul li:nth-child(2){background-image:url(../img/robot/EN_Title_October.jpg)}
+.accordion ul li:nth-child(3){background-image:url(../img/robot/EN_Title_November.jpg)}
+.accordion ul li:nth-child(4){background-image:url(../img/robot/EN_Title_December.jpg)}
+.accordion ul:hover li{width:8%}
+.accordion ul:hover li:hover{width:60%}
+.accordion ul:hover li:hover .panel{background:rgba(0,0,0,.4)}
+.accordion ul:hover li:hover .panel *{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}
+@media screen and (max-width:600px){.accordion{height:auto}
+.accordion ul li,.accordion ul li:hover,.accordion ul:hover li,.accordion ul:hover li:hover{position:relative;display:table;table-layout:fixed;width:100%;-webkit-transition:none;transition:none}}
 @media(max-width:600px){#hidden{display:none}}
 .y1{background-color:#ffb748;background-size:cover}
 .y2{background-color:#edaa43}
