@@ -13,10 +13,10 @@ h5{margin-top:20px}
 .bg-block p{height:90%;margin:15px}
 @media(min-width:1500px){.bg-block img,.bg-block p{height:90%;width:auto;font-size:18px}}
 @media(max-width:500px){.tabs,.tabs a{font-size:12px;line-height:20px;letter-spacing:0}}
-#en-accordion ul li:nth-child(1){background-image:url(../img/robot/EN_Title_Pre.jpg)}
-#en-accordion ul li:nth-child(2){background-image:url(../img/robot/EN_Title_October.jpg)}
-#en-accordion ul li:nth-child(3){background-image:url(../img/robot/EN_Title_November.jpg)}
-#en-accordion ul li:nth-child(4){background-image:url(../img/robot/EN_Title_December.jpg)}
+#en-accordion ul li:nth-child(1){background-image:url(../img/robot/EN_Title_Pre.jpg);background-size:cover}
+#en-accordion ul li:nth-child(2){background-image:url(../img/robot/EN_Title_October.jpg);background-size:cover}
+#en-accordion ul li:nth-child(3){background-image:url(../img/robot/EN_Title_November.jpg);background-size:cover}
+#en-accordion ul li:nth-child(4){background-image:url(../img/robot/EN_Title_December.jpg);background-size:cover}
 @media(max-width:600px){#hidden{display:none}}
 .y1{background-color:#ffb748;background-size:cover}
 .y2{background-color:#edaa43}
