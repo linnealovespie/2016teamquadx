@@ -150,6 +150,8 @@ margin: -15px 15px 0 0;
 
 #en-accordion ul li:nth-child(4) { background-image: url("../img/robot/EN_Title_December.jpg"); background-size:cover;}
 
+#en-accordion ul li:nth-child(5) { background-image: url("../img/robot/En_Title_January.jpg"); background-size:cover;}
+
 /*.accordion ul li:nth-child(5) { background-image: url("5.jpg"); }
 
 .accordion ul li:nth-child(6) { background-image: url("6.jpg"); }*/
