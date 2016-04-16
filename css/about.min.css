@@ -18,6 +18,8 @@ h5{margin-top:20px}
 #en-accordion ul li:nth-child(3){background-image:url(../img/robot/EN_Title_November.jpg);background-size:cover}
 #en-accordion ul li:nth-child(4){background-image:url(../img/robot/EN_Title_December.jpg);background-size:cover}
 #en-accordion ul li:nth-child(5){background-image:url(../img/robot/En_Title_January.jpg);background-size:cover}
+#en-accordion ul li:nth-child(6){background-image:url(../img/robot/En_Title_February.jpg);background-size:cover}
+#en-accordion ul li:nth-child(7){background-image:url(../img/robot/En_Title_March.jpg);background-size:cover}
 @media(max-width:600px){#hidden{display:none}}
 .y1{background-color:#ffb748;background-size:cover}
 .y2{background-color:#edaa43}
