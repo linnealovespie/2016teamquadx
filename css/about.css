@@ -306,3 +306,9 @@ margin: -15px 15px 0 0;
         font-size: 11px;
     }
 }
+@media(max-width:1450px) {
+    #ppt {
+        height: 300px;
+    }
+}
+@media(max-width:1350px) {}
