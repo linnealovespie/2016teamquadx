@@ -312,3 +312,8 @@ margin: -15px 15px 0 0;
     }
 }
 @media(max-width:1350px) {}
+.gif-pic {
+    /*background-image: url("../img/robot/gifs/19October_2churros.gif*/
+    background-size: cover;
+    height: 200px;
+}
