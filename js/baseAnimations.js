@@ -1,43 +1,6 @@
 $(document).ready(function () {
     $(".dropdown-button").dropdown();
     $('.slider').slider('start');
-
-
-    $("#19-oct img").hover(
-
-        function ()
-
-        {
-
-            $(this).attr("src", "img/robot/gifs/19October_2churros.gif");
-
-        },
-
-        function ()
-
-        {
-
-            $(this).attr("src", "img/robot/gifs/19October_2churros.jpg");
-
-        });
-    $("#20-oct img").hover(
-
-        function ()
-
-        {
-
-            $(this).attr("src", "img/robot/gifs/20October_3churros.gif");
-
-        },
-
-        function ()
-
-        {
-
-            $(this).attr("src", "img/robot/gifs/20October_3churros.jpg");
-
-        });
-
 });
 
 $(".button-collapse").sideNav();
