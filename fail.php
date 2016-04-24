@@ -24,22 +24,22 @@
         <div><a href="#" data-activates="nav-mobile" class="button-collapse top-nav waves-effect waves-light"><i class="medium mdi-navigation-menu"></i></a></div>
         <ul id="nav-mobile" class="side-nav fixed">
             <li class="logo">
-                <a id="logo-container" href="#" class="brand-logo"></a>
+                <a id="logo-container" href="index.html" class="brand-logo"></a>
             </li>
             <li class="no-padding">
                 <!--Tabs under "Team"!-->
                 <ul class="collapsible collapsible-accordion">
-
                     <li>
-                        <div class="collapsible-header"><a href="about-team.html" div class="collapsible-header waves-effect waves-yellow">Our Team</a></div>
+                        <div class="collapsible-header"><a href="#" div class="collapsible-header waves-effect waves-yellow">The Team</a></div>
                         <div class="collapsible-body">
                             <ul>
+                                <li class="bold"><a href="about-team.html" class="waves-effect waves-yellow">Our Members</a></li>
                                 <li class="bold"><a href="history.html" class="waves-effect waves-yellow">Team History</a></li>
                             </ul>
                     </li>
                 </ul>
-                <li class="bold"><a href="about-robot.html" class="waves-effect waves-yellow">Our Robot</a></li>
             </li>
+            <li class="bold"><a href="about-robot.html" class="waves-effect waves-yellow">Our Robot</a></li>
             <li class="bold"><a href="resource.html" class="waves-effect waves-yellow">Resources</a></li>
             <li class="bold"><a href="contact-form.php" class="waves-effect waves-yellow">Contact</a></li>
             <li class="no-padding">
@@ -54,7 +54,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="bold"><a href="about-robot.html" class="waves-effect waves-yellow">Engineering Notebook</a></li>
+            <li class="bold"><a href="en.html" class="waves-effect waves-yellow">Engineering Notebook</a></li>
 
         </ul>
         </li>

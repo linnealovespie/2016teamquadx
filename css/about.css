@@ -14,6 +14,7 @@ h5 {
     float: center;
     width: 300px;
     height: 225px;
+    margin: auto;
 }
 .front,
 .back {
@@ -166,6 +167,66 @@ margin: -15px 15px 0 0;
 #en-accordion ul li:nth-child(8) {
     background-image: url("../img/robot/EN_Title_April.jpg");
     background-size: cover;
+}
+.mobile-accordion {
+    height: auto;
+}
+.mobile-accordion > div {
+    width: 100%;
+    z-index: 3;
+    height: 200px;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    padding-left: 5px;
+    opacity: .8;
+    background-size: cover;
+}
+#opacity-id {
+    opacity: 1 !important;
+}
+.mobile-accordion .mobile-tab h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    top: 100px;
+    color: white;
+    z-index: 5;
+    margin: 0;
+}
+.mobile-accordion .mobile-tab h2:hover {
+    color: #9bb8da;
+}
+.mobile-accordion p {
+    color: white;
+    margin: 0;
+}
+.mobile-accordion div:nth-child(1) {
+    background-image: url(../img/robot/EN_Title_Pre_Mobile.jpg);
+}
+.mobile-accordion div:nth-child(2) {
+    background-image: url(../img/robot/EN_Title_October_Mobile.jpg);
+}
+.mobile-accordion div:nth-child(3) {
+    background-image: url(../img/robot/EN_Title_November_Mobile.jpg);
+}
+.mobile-accordion div:nth-child(4) {
+    background-image: url(../img/robot/EN_Title_December_Mobile.jpg);
+}
+.mobile-accordion div:nth-child(5) {
+    background-image: url(../img/robot/EN_Title_January_Mobile.jpg);
+}
+.mobile-accordion div:nth-child(6) {
+    background-image: url(../img/robot/EN_Title_February_Mobile.jpg);
+}
+.mobile-accordion div:nth-child(7) {
+    background-image: url(../img/robot/EN_Title_March_Mobile.jpg);
+}
+.mobile-accordion div:nth-child(8) {
+    background-image: url(../img/robot/EN_Title_April.jpg);
+}
+@media screen and (min-width:600px) {
+    .mobile-accordion {
+        display: none;
+    }
 }
 
 /*.accordion ul li:nth-child(5) { background-image: url("5.jpg"); }
