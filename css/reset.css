@@ -11,15 +11,15 @@ h3 {
     color: #0F335A;
     margin-top: 0px;
 }
-p {
-    font-size: 18px;
-}
 .side-nav .collapsible-header {
     background-color: transparent;
     margin: 0px;
     border: medium none;
     height: inherit;
     line-height: 4.5;
+}
+img.responsive-img {
+    max-width: 99%;
 }
 
 /*.side-nav .collapsible-body, .side-nav.fixed{

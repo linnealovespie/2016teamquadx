@@ -295,21 +295,10 @@ ul.side-nav.fixed li.active {
     transform: translateX(0);
 }
 @media screen and (max-width: 600px) {
-    /*.accordion {
-        height: auto;
+    #lr-gradient h6,
+    #rl-gradient h6 {
+        font-size: 12px;
     }
-    .accordion ul li,
-    .accordion ul li:hover,
-    .accordion ul:hover li,
-    .accordion ul:hover li:hover {
-        position: relative;
-        display: table;
-        table-layout: fixed;
-        width: 100%;
-        -webkit-transition: none;
-        transition: none;
-    }*/
-    
     .accordion {
         display: none;
     }
@@ -383,4 +372,7 @@ ul.side-nav.fixed li.active {
 }
 ::-webkit-scrollbar-thumb:hover {
     background-color: #edcd9e;
+}
+#larger-p {
+    font-size: 18px;
 }

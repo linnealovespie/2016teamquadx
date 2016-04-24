@@ -163,6 +163,10 @@ margin: -15px 15px 0 0;
     background-image: url("../img/robot/En_Title_March.jpg");
     background-size: cover;
 }
+#en-accordion ul li:nth-child(8) {
+    background-image: url("../img/robot/EN_Title_April.jpg");
+    background-size: cover;
+}
 
 /*.accordion ul li:nth-child(5) { background-image: url("5.jpg"); }
 
@@ -317,3 +321,34 @@ margin: -15px 15px 0 0;
     background-size: cover;
     /*height: 200px;*/
 }
+#lr-gradient {
+    background: #FFD79A;
+    background: -webkit-linear-gradient(left, #FFD79A, #FFB748);
+    background: -o-linear-gradient(right, #FFD79A, #FFB748);
+    background: -moz-linear-gradient(right, #FFD79A, #FFB748);
+    background: linear-gradient(to right, #FFD79A, #FFB748);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+#rl-gradient {
+    background: #FFD79A;
+    background: -webkit-linear-gradient(right, #FFD79A, #FFB748);
+    background: -o-linear-gradient(left, #FFD79A, #FFB748);
+    background: -moz-linear-gradient(left, #FFD79A, #FFB748);
+    background: linear-gradient(to left, #FFD79A, #FFB748);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+#lr-gradient h6,
+#rl-gradient h6 {
+    margin-top: 0;
+}
+
+/*.gradient-container {
+    background: #FFD79A;
+    background: -webkit-linear-gradient(left, #FFD79A, #FFB748);
+    background: -o-linear-gradient(right, #FFD79A, #FFB748);
+    background: -moz-linear-gradient(right, #FFD79A, #FFB748);
+    background: linear-gradient(to right, #FFD79A, #FFB748);
+    border-radius: 5px;
+}*/
