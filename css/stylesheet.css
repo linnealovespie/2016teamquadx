@@ -52,8 +52,10 @@ ul.side-nav.fixed li.active {
 /*Styles for titles of all non-homepages*/
 
 .page-title {
-    font-size: 48px;
+    font-size: 3em;
     margin-left: 2%;
+    font-family: agency fb;
+    font-weight: 700;
 }
 .page-title p {
     line-height: 25px;
