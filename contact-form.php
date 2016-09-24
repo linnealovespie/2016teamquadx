@@ -10,7 +10,7 @@
     <link href="css/socicon.css" rel="stylesheet" type="text/css" />
     <link href="css/reset.css" rel="stylesheet" type="text/css" />
     <link href="php/styles.css" rel="stylesheet" type="text/css" />
-
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Teko" rel="stylesheet">
 </head>
 
 <body>
