@@ -53,7 +53,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="bold"><a href="en.html" class="waves-effect waves-yellow">Engineering Notebook</a></li>
+            
 
         </ul>
         </li>
