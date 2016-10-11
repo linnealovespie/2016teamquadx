@@ -294,6 +294,19 @@ margin: -15px 15px 0 0;
     /*white text for placed onto pictures*/
     color: white;
 }
+.alumCard{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*border-radius:100px;*/
+    width: 100%;
+    -webkit-transition: all 1s ease-out 0s;
+    -moz-transition: all 1s ease-out 0s;
+    -ms-transition: all 1s ease-out 0s;
+    -o-transition: all 1s ease-out 0s;
+    transition: all 1s ease-out 0s;
+    margin: auto;
+}
 #jacob {
     background-image: url("../img/history/jacob%20-%20Copy.png");
     background-repeat: no-repeat;
@@ -302,15 +315,11 @@ margin: -15px 15px 0 0;
     /*border-radius:100px;*/
     width: 100%;
     height: 200px;
-    -webkit-transition: all .5s ease-out 0s;
-    -moz-transition: all .5s ease-out 0s;
-    -ms-transition: all .5s ease-out 0s;
-    -o-transition: all .5s ease-out 0s;
-    transition: all .5s ease-out 0s;
-    margin: auto;
+   
 }
 #jacob:hover {
     background-image: url("../img/history/utd.jpg");
+    background-size:contain;
     z-index: 900;
     border-radius: 25px;
 }
@@ -322,18 +331,67 @@ margin: -15px 15px 0 0;
     /*border-radius:100px;*/
     width: 100%;
     height: 200px;
-    -webkit-transition: all .5s ease-out 0s;
-    -moz-transition: all .5s ease-out 0s;
-    -ms-transition: all .5s ease-out 0s;
-    -o-transition: all .5s ease-out 0s;
-    transition: all .5s ease-out 0s;
-    margin: auto;
+   
 }
-#alumni {
-    margin-bottom: 0px;
+#eddie {
+    background-image: url(../img/history/eddie.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*border-radius:100px;*/
+    height:200px;
+}
+#eddie:hover{
+    background-image: url("../img/history/utd.png");
+       background-size:contain;
+    z-index: 900;
+    border-radius: 25px;
+}
+#jules{
+    background-image: url(../img/history/jules.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*border-radius:100px;*/
+    height:200px;
+}
+#jules:hover{
+    background-image: url("../img/history/anm.png");
+       background-size:contain;
+    z-index: 900;
+    border-radius: 25px;
+}
+#james {
+    background-image: url(../img/history/james.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*border-radius:100px;*/
+    height:200px;
+}
+#james:hover{
+    background-image: url("../img/history/utd.png");
+       background-size:contain;
+    z-index: 900;
+    border-radius: 25px;
+}
+#reagan {
+    background-image: url(../img/history/reagan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*border-radius:100px;*/
+    height:200px;
+}
+#reagan:hover{
+    background-image: url("../img/history/uta.png");
+       background-size:contain;
+    z-index: 900;
+    border-radius: 25px;
 }
 #sahil:hover {
     background-image: url("../img/history/duke.png");
+       background-size:contain;
     z-index: 900;
     border-radius: 25px;
 }
@@ -345,15 +403,11 @@ margin: -15px 15px 0 0;
     /*border-radius:100px;*/
     width: 100%;
     height: 200px;
-    -webkit-transition: all .5s ease-out 0s;
-    -moz-transition: all .5s ease-out 0s;
-    -ms-transition: all .5s ease-out 0s;
-    -o-transition: all .5s ease-out 0s;
-    transition: all .5s ease-out 0s;
-    margin: auto;
+   
 }
 #till:hover {
     background-image: url("../img/history/rit.png");
+    background-size:contain;
     z-index: 900;
     border-radius: 25px;
 }
@@ -371,7 +425,7 @@ margin: -15px 15px 0 0;
         font-size: 11px;
     }
 }
-@media(max-width:1450px) {
+@media(max-width:140px) {
     #ppt {
         height: 300px;
     }
@@ -413,3 +467,7 @@ margin: -15px 15px 0 0;
     background: linear-gradient(to right, #FFD79A, #FFB748);
     border-radius: 5px;
 }*/
+
+#eddie {
+    
+}

@@ -73,3 +73,14 @@
 #resource-accordion ul li div .panel h2 {
     top:150px;
 }
+.resource-img {
+    height:70px;
+    display:inline;
+    vertical-align: top;
+    margin-left:2px;
+}
+
+
+.resource-context {
+    display:inline-block;
+}

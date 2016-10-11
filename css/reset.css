@@ -17,9 +17,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: agency fb;
-    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
     font-size-adjust: auto;
+}
+html{
+    font-family:'Josefin Sans', sans-serif;
+    font-weight:600;
+    font-size:1.1em;
 }
 .side-nav .collapsible-header {
     background-color: transparent;
@@ -29,7 +34,7 @@ h6 {
     line-height: 4.5;
 }
 img.responsive-img {
-    max-width: 99%;
+    max-width: 100%;
 }
 
 /*.side-nav .collapsible-body, .side-nav.fixed{
@@ -117,7 +122,7 @@ span i {
 .btn-large,
 .btn:hover,
 .btn-large:hover {
-    background-color: #D4713C;
+    background-color: #d4983c;
 }
 .card .card-content .card-title {
     line-height: 30px;
