@@ -40,7 +40,7 @@
             </li>
             <li class="bold"><a href="about-robot.html" class="waves-effect waves-yellow">Our Robot</a></li>
             <li class="bold"><a href="resource.html" class="waves-effect waves-yellow">Resources</a></li>
-            <li class="bold"><a href="contact-form.php" class="waves-effect waves-yellow">Contact</a></li>
+            <li class="bold"><a href="contact-form.html" class="waves-effect waves-yellow">Contact</a></li>
             <li class="no-padding">
                 <!--Tabs under "Events"!-->
                 <ul class="collapsible collapsible-accordion">
@@ -53,7 +53,7 @@
                     </li>
                 </ul>
             </li>
-            
+
 
         </ul>
         </li>
