@@ -7,6 +7,7 @@ $(".button-collapse").sideNav();
 var height = $(window).height();
 $('.bg-img').css('height', height);
 
+
 /*$( "#calendar-btn" ).click(function() {
         $( ".calendar-div" ).show( "slide");
         $(".events-wrapper").css('display: none');
