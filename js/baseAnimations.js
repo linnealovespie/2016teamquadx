@@ -10,7 +10,7 @@ $('.bg-img').css('height', height);
 function showhide(id) {
     var divid = document.getElementById(id);
     var divs = document.getElementsByClassName("hideable");
-    for (var div in divs) {
+    for (var div in s) {
         div.style.display = "none";
     }
     divid.style.display = "block";
