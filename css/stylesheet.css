@@ -52,12 +52,12 @@ ul.side-nav.fixed li.active {
 /*Styles for titles of all non-homepages*/
 
 .page-title {
-    font-size: 6em;
-    margin-right: 2%;
-    margin-top: 6%;
+    font-size: 4em;
     font-family: 'Teko', sans-serif;
-    font-weight: 400;
-    text-align: right;
+    font-weight: 350;
+    margin: auto;
+    margin-left: 3%;
+    text-align: left;
 }
 .page-title p {
     line-height: 25px;
@@ -65,7 +65,7 @@ ul.side-nav.fixed li.active {
     overflow: hidden;
 }
 #top-margin-adjust {
-    margin-top: 200px;
+    margin-top: 160px;
 }
 @media(max-width:1000px) {
     .nav-wrapper {

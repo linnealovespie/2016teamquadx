@@ -4,17 +4,15 @@
     top:190px;
 }*/
 
-h5{
-    color:#2F5A8A;
+h5 {
+    color: #2F5A8A;
 }
-
-.article{
-    padding:2%;
-    border-radius:3px;
-    margin-bottom:5%;
+.article {
+    padding: 2%;
+    border-radius: 3px;
+    margin-bottom: 5%;
     background-color: #EACD6C;
 }
-
 
 /*.pagination li i{
     font-style:normal;
@@ -26,127 +24,119 @@ h5{
     margin:10px auto;
 }*/
 
-
 .pagination {
-	width: 100%;
-	text-align: center;
+    width: 100%;
+    text-align: center;
 }
-
 .pagination ul {
-	display: inline-block;
+    display: inline-block;
 }
-
 .pagination ul li {
-	border-radius: 4px;
-	padding: 5px 10px 5px 10px;
-	background-color: #7BC342;
-	border-bottom: 3px solid #507F2B;
-	margin-right: 5px;
-	display: inline-block;
-	color: #FFF;
+    border-radius: 4px;
+    padding: 5px 10px 5px 10px;
+    background-color: #7BC342;
+    border-bottom: 3px solid #507F2B;
+    margin-right: 5px;
+    display: inline-block;
+    color: #FFF;
 }
-
 .pagination ul li:last-child {
-	margin-right: 0px;
+    margin-right: 0px;
 }
-
 .pagination ul .active {
-	background-color: #507F2B;
+    background-color: #507F2B;
 }
-
-.pagination li.active{
-    background-color: #D4713C; 
+.pagination li.active {
+    background-color: #D4713C;
 }
 .pagination ul li a:visited {
-	color: #FFF;
+    color: #FFF;
 }
-
-.btn, .btn-large, .btn-flat, btn:hover {
+.btn,
+.btn-large,
+.btn-flat,
+btn:hover {
     border: medium none;
     border-radius: 2px;
     height: 36px;
     outline: 0px none;
     text-transform: uppercase;
     vertical-align: middle;
-    background-color:#D4713C;
-    
-}
-
-.slider .play-btn{
-    background-color:transparent;
-    width:5px;
-    padding:auto;
-    margin:10px auto auto 15px;
-    position:absolute;
-    z-index: 999;
-}
-
-.play-btn i{
-    text-align:center;
-    color:#b5d309;
-    font-size:30px;
-    font-style:normal;
-    margin-bottom:0px
-}
-
-.pause-btn i{
-    text-align:center;
-    color:#b5d309;
-    font-size:30px;
-    font-style:normal;
-    margin-bottom:0px;
-    margin:10px auto 0px 15px;
-    position:absolute;
-    z-index: 999;
-    display:none;
-}
-
-.btn:hover, .btn-large:hover {
     background-color: #D4713C;
 }
-
-.btn p{
-    margin:auto;
-    font-size:12px;
+.slider .play-btn {
+    background-color: transparent;
+    width: 5px;
+    padding: auto;
+    margin: 10px auto auto 15px;
+    position: absolute;
+    z-index: 999;
 }
-
-article{
-    margin-bottom:-5px;
+.play-btn i {
+    text-align: center;
+    color: #b5d309;
+    font-size: 30px;
+    font-style: normal;
+    margin-bottom: 0px
 }
-
-.slider{
-    margin:10px auto;
+.pause-btn i {
+    text-align: center;
+    color: #b5d309;
+    font-size: 30px;
+    font-style: normal;
+    margin-bottom: 0px;
+    margin: 10px auto 0px 15px;
+    position: absolute;
+    z-index: 999;
+    display: none;
 }
-
-.slider .slides li{
-    border-radius:3px;  
-    margin:0 auto;
+.btn:hover,
+.btn-large:hover {
+    background-color: #D4713C;
 }
-
-#slider-sm .slides{
-    height:300px;
-    margin-bottom:10px;
+.btn p {
+    margin: auto;
+    font-size: 12px;
 }
-
-#slider-sm{
-    height:300px;
+article {
+    margin-bottom: -5px;
 }
-
-#slider-sm .indicators{
-    position:relative;
+.slider {
+    margin: 10px auto;
 }
-
+.slider .slides li {
+    border-radius: 3px;
+    margin: 0 auto;
+}
+#slider-sm .slides {
+    height: 300px;
+    margin-bottom: 10px;
+}
+#slider-sm {
+    height: 300px;
+}
+#slider-sm .indicators {
+    position: relative;
+}
 footer.page-footer {
-  margin-top: 65px;
+    margin-top: 65px;
 }
-
-.slider .slides{
-    background-image:none;
-    background-size:100%;
-    border-radius:5px;
+.slider .slides {
+    background-image: none;
+    background-size: 100%;
+    border-radius: 5px;
 }
 .float-left {
-    float:left;
-    width:25%;
-    margin-right:3%;
+    float: left;
+    width: 25%;
+    margin-right: 3%;
+}
+.text-overflow {
+    overflow: hidden;
+    line-height: 20px;
+    max-height: 40px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
