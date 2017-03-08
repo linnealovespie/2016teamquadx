@@ -140,6 +140,3 @@ footer.page-footer {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
 }
-a[href]:hover h3 {
-    background-color: aqua;
-}
