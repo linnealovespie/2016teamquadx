@@ -1,24 +1,12 @@
 $(document).ready(function () {
     $(".dropdown-button").dropdown();
-    $('.slider').slider('');
-    $('.hideable').on('click', function () {
-        $('.hideable').not('#2_6_2017').hide();
-    });
+    $('.slider').slider('start');
 });
 
 $(".button-collapse").sideNav();
 var height = $(window).height();
 $('.bg-img').css('height', height);
 
-/*function showhide(id) {
-    var divid = document.getElementById(id);
-    var divs = document.getElementsByClassName("hideable");
-    for (var div in divs) {
-        div.style.display = "none";
-    }
-    divid.style.display = "block";
-    return false;
-}*/
 
 /*$( "#calendar-btn" ).click(function() {
         $( ".calendar-div" ).show( "slide");
