@@ -44,6 +44,9 @@ img.responsive-img {
 .side-nav {
     z-index: 999;
 }
+.side-nav.fixed{
+    left:0;
+}
 nav {
     background-color: #D4983C;
     /*#ddae66;*/
