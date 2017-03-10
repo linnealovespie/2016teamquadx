@@ -4,6 +4,7 @@ $(document).ready(function () {
     $('.hideable').on('click', function () {
         $('.hideable').not('#2_6_2017').hide();
     });
+    $(".button-collapse").sideNav();
 });
 
 $(".button-collapse").sideNav();
